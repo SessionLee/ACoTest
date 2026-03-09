@@ -1,0 +1,15 @@
+## Commit 1: init-project
+- 创建项目目录结构
+- 添加 README.md（项目说明：多语言超大数计算器）
+- 添加 .gitignore（忽略 __pycache__、node_modules 等）
+
+## Commit 2: add-python-cli
+- 使用 Python 实现超大数加法 CLI 工具
+- 支持命令行参数解析（num1 + num2 格式）
+- 支持 50 位以上整数加法
+- 添加 requirements.txt（仅标准库，无需依赖）
+
+## Commit 3: add-go-cli
+- 使用 Go 实现超大数加法 CLI 工具
+- 保持与 Python 版本相同的使用方式
+- 添加 go.mod 文件
